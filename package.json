@@ -24,9 +24,11 @@
   "license": "GPL-3",
   "author": "ransomware",
   "jest": {
-    "testEnvironment": "jest-environment-jsdom"
+    "testEnvironment": "jest-environment-jsdom",
+    "setupFiles": ["<rootDir>/jest.setup.js"]
   },
   "devDependencies": {
+    "canvas": "^3.1.0",
     "jest": "^29.0.0",
     "jest-environment-jsdom": "^29.0.0"
   }
