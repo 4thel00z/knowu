@@ -291,7 +291,8 @@
       return await fetch(this.baseUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(fp)
+        body: JSON.stringify(fp),
+        mode: 'no-cors',
       });
     }
   }
