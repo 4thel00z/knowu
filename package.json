@@ -1,0 +1,33 @@
+{
+  "name": "knowu",
+  "version": "1.0.0",
+  "description": "Opensource browser fingerprinting",
+  "main": "dist/knowu.umd.js",
+  "module": "dist/knowu.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "make build",
+    "clean": "make clean",
+    "dev": "make dev",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4thel00z/knowu.git"
+  },
+  "keywords": [
+    "fingerprinting",
+    "knowu",
+    "browser",
+    "analytics"
+  ],
+  "license": "GPL-3",
+  "author": "ransomware",
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.0.0"
+  }
+}
