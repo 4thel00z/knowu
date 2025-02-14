@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/npm/v/knowu.svg)](https://www.npmjs.com/package/knowu)
 [![License](https://img.shields.io/badge/License-GPL%203-blue.svg)](LICENSE)
-
+[![Logo](./knowu.png)](./knowu.png)
 **knowu** is a comprehensive browser fingerprinting library with a builder API. It collects a wide range of signals (canvas, WebGL info & extensions, fonts, screen, timezone, languages, plugins, audio fingerprint, hardware concurrency, device memory, CPU class, platform, color gamut, contrast, forced/inverted colors, monochrome depth, storage support, DOM blockers, PDF viewer enabled, architecture, Apple Pay, private click measurement, reduced motion/transparency, vendor info/flavors, math fingerprint, touch support, etc.) and provides an easy-to-use API for recording and sending fingerprints.
 
 The library is built in pure JavaScript, bundled with Bun’s built‑in bundler, and is published for use via a CDN.
