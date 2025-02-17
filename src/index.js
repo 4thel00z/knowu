@@ -1,5 +1,5 @@
 /********************************************************************
- * knowu.js
+ * knowu.js - Version 1.1.1
  *
  * The “knowu” library collects a wide range of fingerprint signals 
  * (canvas, WebGL info+extensions, fonts, screen, timezone, languages, 

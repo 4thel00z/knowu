@@ -1,6 +1,6 @@
 {
   "name": "knowu",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Opensource browser fingerprinting",
   "main": "dist/knowu.umd.js",
   "module": "dist/knowu.esm.js",
